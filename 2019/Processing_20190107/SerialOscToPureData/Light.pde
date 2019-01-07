@@ -39,6 +39,7 @@ class Light {
   void on(float xx, float yy, color c) {
     x=xx;
     y=yy;
+    
     col=c;
     bright=1.0;
     s=0;
